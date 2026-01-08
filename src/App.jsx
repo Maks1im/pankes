@@ -1,10 +1,10 @@
 import "./styles/app.scss"
-import MainLayout from "./components/layout/MainLayout.jsx";
+import HomePage from "./pages/HomePage/HomePage.jsx";
 
 const App = () => {
     return (
         <>
-            <MainLayout />
+            <HomePage />
         </>
     );
 };
