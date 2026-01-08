@@ -4,7 +4,6 @@ import Card from "../Card/Card.jsx";
 import data from "../../data/breakfast.json"
 
 const MainLayout = () => {
-    // Используем data.breakfasts вместо data
     return (
         <>
             <Header />
