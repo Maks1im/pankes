@@ -1,0 +1,60 @@
+.header{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E9E9E9;
+  z-index: 1000;
+}
+
+.mobileHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 5rem;
+  padding: .3rem 1rem;
+  width: 100%;
+}
+
+.logo{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.formSearch{
+  display: flex;
+  justify-content: center;
+  margin-top: .5rem;
+  width: 100%;
+}
+
+.formGroup{
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #969696;
+  width: 100%;
+}
+
+.formIcon{
+  position: absolute;
+  left: .6rem;
+}
+
+.formInput{
+  background: #D8D8D8;
+  border: none;
+  outline: none;
+  padding: .4rem 2rem;
+  border-radius: .5rem;
+  max-width: 768px;
+  width: 100%;
+  height: 2.1rem;
+  font-size: .9rem;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
